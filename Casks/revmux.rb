@@ -4,21 +4,21 @@ cask "revmux" do
 
   on_macos do
     on_arm do
-      sha256 "93dff9b22b904dac0f79bbfc4fea9d240f7aba95a5dabdc16a787ba625cabacc"
+      sha256 "eb0d6d3c0ee3b3b14c198283bf1345f3b431d070b3870512492ea29d64a4d099"
       url "https://github.com/hackmajoris/revmux/releases/download/v#{version}/revmux_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3f512aa28020772d48b9260e48312409a03cb4cf53b29ec16f01037801e92e0d"
+      sha256 "4115a596adb8e8f171f7579786bbe3f6d773d9280f664ae8b2895ddc29558d8c"
       url "https://github.com/hackmajoris/revmux/releases/download/v#{version}/revmux_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "e65b05bed622c51227a14999a4c7ddba74aa959c9822fc98c4ca81fca46c067a"
+      sha256 "cc54146430978c5a07abd956af629f98343c6f63ee9d4396720b2a2d96461a73"
       url "https://github.com/hackmajoris/revmux/releases/download/v#{version}/revmux_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "61990b305d8a73e34c9f7eb900a84eb3e811ed3c0b36c8ca7be61b8952661dac"
+      sha256 "fa92cbb0c18c5b259d6091b284fc8d867e1beea50f41631d96f50d45db54b507"
       url "https://github.com/hackmajoris/revmux/releases/download/v#{version}/revmux_#{version}_linux_amd64.tar.gz"
     end
   end
