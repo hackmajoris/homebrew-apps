@@ -1,11 +1,11 @@
 cask "rebased" do
-  version "1.0.1"
+  version "1.1.0"
 
   on_macos do
     arch arm: "-aarch64"
 
-    sha256 arm:   "971648c66d7c30d3b89723f83a1fc014d3c5109922611900684e50f83a3a2024",
-           intel: "342bab2d833b09f648f33cb6b1826fa200307a1be46246ab4eb7d0e4bd7600a2"
+    sha256 arm:   "69ac4c6443d0391b1295d03d14c2593ab155ebdfd72318239c297603935fe4cd",
+           intel: "dd89fac39909bb15f3c124894196151df21f41bacc0c34fcbbf8f8b2a5fcffd5"
 
     url "https://github.com/hackmajoris/rebased/releases/download/#{version}/rebased#{arch}.dmg"
   end
