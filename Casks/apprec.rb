@@ -1,6 +1,6 @@
 cask "apprec" do
-  version "0.1.0"
-  sha256 "f7c81a94c69830a87b7989592023152e564d85b2c8c1af28406f7e45d29d11a8"
+  version "0.2.0"
+  sha256 "d1ab298bfed828f4d1895fbf45821c973290810a171d79874d10e803355a76cd"
 
   url "https://github.com/hackmajoris/apprec/releases/download/v#{version}/AppRec.zip"
   name "AppRec"
