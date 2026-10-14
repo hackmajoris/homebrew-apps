@@ -6,25 +6,25 @@ cask "sharefly" do
     end
   end
 
-  version "0.6.0"
+  version "0.7.0"
 
   on_macos do
     on_arm do
-      sha256 "352ee15f94d4162bdb96b325912ad7e80587e90309f51042548b6cac624fd7a3"
+      sha256 "e33933019fd078da8195f69ef2f0c106c4d497afed07df679ce37d41e00ec866"
       url "https://github.com/hackmajoris/sharefly/releases/download/v#{version}/sharefly_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "174fa832b7796d8a7e9c3a452c548212794dd6916d1d868d7bbde32aa6dd1b31"
+      sha256 "ac156e51ef46abea05958768653fb235f0f732bbcf46c71984b6873d8b5ffebd"
       url "https://github.com/hackmajoris/sharefly/releases/download/v#{version}/sharefly_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "892088e0686d496490f23de26f98a54d3b9e948d505e6d1c22da45d98fdb6fae"
+      sha256 "427a4ec9c2a695ab5a30c3071e6ad50d20859f6948f997a67a93a163bd1c4e14"
       url "https://github.com/hackmajoris/sharefly/releases/download/v#{version}/sharefly_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "4c0200b01d0f9caadc5d8ca7b9cf19fc1d45af394eda7d29107be6a8f166d197"
+      sha256 "7ec7ac3b07fc80687744ebe2c65eb7e8337a0187a6ce0ce73a5f5d8f8d2fcfd8"
       url "https://github.com/hackmajoris/sharefly/releases/download/v#{version}/sharefly_#{version}_linux_amd64.tar.gz"
     end
   end
